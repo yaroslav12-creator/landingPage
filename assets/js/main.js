@@ -26,3 +26,13 @@ function ActionOnLink() {
 navLink.forEach(n => {
     n.addEventListener('click', ActionOnLink);
 });
+
+let homeSwiper = new Swiper(".home-swiper", {
+    spaceBeenween: 30,
+    loop: 'true',
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+});
