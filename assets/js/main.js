@@ -49,3 +49,11 @@ function scrollHeader() {
 }
 
 window.addEventListener('scroll', scrollHeader);
+
+
+let newSwiper = new Swiper(".new-swiper", {
+    centeredSlides: true,
+    spaceBetween: 16,
+    slidesPerView: 'auto',
+    loop: 'true',
+});
