@@ -14,6 +14,10 @@
     --body-color: linear-gradient(90deg, rgb(83, 121, 68) 5%, rgba(131,129,73,1) 82%);
     --container-color: linear-gradient(136deg, rgba(78,114,64,1) 0%, rgba(114,113,64,1) 100%);
 
+    /*Black theme colours*/
+    /* --body-color: hsl(30, 8%, 8%);
+    --container-color: hsl(30, 8%, 10%); */
+
     --body-font: 'Poppins', sans-serif;;
     --biggest-font-size: 2rem;
     --h1-font-size: 1.5rem;

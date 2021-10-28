@@ -93,3 +93,17 @@ function scrollUp() {
 }
 
 window.addEventListener('scroll', scrollUp);
+
+//Scroll Animation
+
+const sr = ScrollReveal({
+    origir: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+});
+
+sr.reveal('.home-swiper, .new-swiper, .newsletter__container');
+sr.reveal('.category__data, .trick__content, .footer__content', {interval: 100});
+sr.reveal('.about__data, .discount__img', {origin: 'left'});
+sr.reveal('.about__img, .discount__data', {origin: 'right'});
