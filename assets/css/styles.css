@@ -681,3 +681,40 @@ button {
     font-size: var(--smaller-font-size);
     margin-top: 4.5rem;
 }
+
+.scrollup {
+    position: fixed;
+    background: var(--container-color);
+    right: 1rem;
+    bottom: -20%;
+    display: inline-flex;
+    padding: .3rem;
+    border-radius: .25rem;
+    z-index: var(--z-tooltip);
+    opacity: .8;
+    transition: .4s;
+}
+
+.scrollup__icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.scrollup:hover {
+    background: var(--container-color);
+    opacity: 1;
+}
+
+.show-scroll {
+    bottom: 3rem;
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+    background: #413c3c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #272525;
+    border-radius: .5rem;
+}
